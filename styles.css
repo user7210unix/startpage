@@ -40,7 +40,11 @@ body, html {
     color: #919DB8;
     font-family: 'Naturaly', sans-serif;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-align: center;
+    text-align: center; /* Centers the text inside the search box */
+}
+
+.search-bar::placeholder {
+    text-align: center; /* Ensures the placeholder text is centered */
 }
 
 .search-bar:hover {
